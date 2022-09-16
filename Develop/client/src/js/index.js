@@ -3,6 +3,12 @@ import Editor from './editor';
 import './database';
 import '../css/style.css';
 
+import Icon from '../images/icon_96x96.png';
+
+window.addEventListener('load', () => {
+  document.getElementById('icon').src= Icon;
+})
+
 const main = document.querySelector('#main');
 main.innerHTML = '';
 
